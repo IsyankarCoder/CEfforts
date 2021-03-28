@@ -3,8 +3,8 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: gcc build active file",
-			"command": "/usr/bin/gcc",
+			"label": "C/C++: g++-7 build active file",
+			"command": "/usr/bin/g++-7",
 			"args": [
 				"-g",
 				"${file}",
@@ -21,7 +21,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: /usr/bin/gcc"
+			"detail": "compiler: /usr/bin/g++-7"
 		}
 	]
 }
